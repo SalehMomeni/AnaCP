@@ -15,15 +15,14 @@ This repository contains code and resources to reproduce the experiments present
 - You can optionally apply FSA (First Session Adaptation) before feature extraction to further improve accuracy.
 - To evaluate the model and other baselines, use the provided scripts in the repository.
 
+Happy experimenting!
+
 ## Datasets
 - **Tiny-ImageNet** must be downloaded manually and placed in the `data/` folder. You can download it from the official source: http://cs231n.stanford.edu/tiny-imagenet-200.zip
 - The other datasets will be downloaded automatically by the code unless the URLs provided become outdated.
 
 ## Pre-trained Checkpoint
 - You should download the **MoCo v3** checkpoint from the official repository: https://github.com/facebookresearch/moco-v3. Place the checkpoint in the main folder.
-
-Happy experimenting!
-
 
 ## Citation
 If you find this repository useful, please cite our paper:
